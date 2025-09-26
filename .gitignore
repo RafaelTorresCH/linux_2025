@@ -1,0 +1,6 @@
+# Archivos objeto compilados
+*.o
+
+# Ejecutables
+ctl64
+ctl32
