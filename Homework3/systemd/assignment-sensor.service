@@ -1,0 +1,12 @@
+[Unit]
+Description=Assignment Sensor Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/assignment-sensor --interval 5
+Restart=on-failure
+RestartSec=2s
+
+[Install]
+WantedBy=multi-user.target
